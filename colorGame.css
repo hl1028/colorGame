@@ -23,7 +23,7 @@ h1 {
 	height: 30%;
 	margin: 1.66%;
 	float: left;
-	
+
 	background: white;
 	padding-bottom: 30%;
 	border-radius: 15%;
@@ -64,6 +64,10 @@ button {
 button:hover {
 	color: white;
 	background: steelblue;
+}
+
+button:focus {
+	outline: 0;
 }
 
 #message {
